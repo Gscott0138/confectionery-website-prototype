@@ -30,6 +30,9 @@ p {
 header {
   background-color: #ff729a;
   padding-bottom: .75em;
+  border-bottom: solid;
+  border-color: #6f2338;
+  border-width: .25em;
 }
 
 .header {
@@ -79,6 +82,74 @@ header {
   background-color: #fa3b71;
   padding: .25em;
 }
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ff729a;
+  border-top: .25em solid #6f2338;
+  border-bottom: .25em solid #6f2338;
+  color: #fff;
+}
+
+.footer h2 {
+  text-align: left;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+.footer ul {
+  display: flex;
+  margin-top: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer li {
+  padding-left: .25em;
+  padding-right: .25em;
+}
+
+.footer a {
+  font-family: Roboto, sans-serif;
+  color: #6f2338;
+}
+
+.links {
+  margin: 0;
+  padding-left: .25em;
+}
+
+.links li:nth-child(1) {
+  padding-left: 0;
+}
+
+.social {
+  margin-left: auto;
+  text-align: right;
+}
+
+.social > li {
+  display: flex;
+  width: 3em;
+  padding: .25em;
+}
+
+.copyright {
+  display: inline-block;
+  text-align: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
 
 @media only screen and (min-width: 25em) {
 
