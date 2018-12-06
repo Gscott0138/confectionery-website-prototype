@@ -99,11 +99,15 @@ img {
   color: #fff;
 }
 
+.footer span {
+  display: none;
+}
+
 .footer h2 {
   text-align: left;
   margin: 0;
   font-family: Roboto, sans-serif;
-  font-weight: 400;
+  font-weight: lighter;
 }
 
 .footer ul {
@@ -138,18 +142,19 @@ img {
 }
 
 .social > li {
-  display: flex;
   width: 3em;
   padding: .25em;
 }
 
 .copyright {
+  font-family: Roboto, sans-serif;
+  font-weight: lighter;
   display: inline-block;
   text-align: center;
   padding: 0 1rem;
+  padding-bottom: 1rem;
   width: 100%;
 }
-
 
 @media only screen and (min-width: 25em) {
 
@@ -193,6 +198,32 @@ img {
 
   .nav {
     display: inline-block;
+  }
+
+  .footer span {
+    display: inline;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+  }
+
+  .links ul {
+    margin: 0;
+    padding-left: .5em;
+  }
+
+  .social {
+    margin-bottom: 0;
+  }
+
+  .social li {
+    padding-bottom: 0;
+  }
+
+  .copyright {
+    padding-bottom: .5em;
   }
 
 }
